@@ -1,0 +1,42 @@
+{
+  "name": "@nextcart/homebridge-key-light",
+  "version": "1.0.0",
+  "description": "A zero-configuration Homebridge platform plugin for controlling Elgato key lights.",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "postpublish": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chance Washington <chance@chancewashington.com>",
+  "engines": {
+    "homebridge": ">=1.0.0"
+  },
+  "license": "ISC",
+  "files": [
+    "LICENSE",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chancewashington/homebridge-key-light.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chancewashington/homebridge-key-light/issues"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "devDependencies": {
+    "@types/node": "10.17.19",
+    "homebridge": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "spread-the-word": "^0.8.4"
+  }
+}
