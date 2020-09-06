@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/chancewashington/homebridge-key-light.git"
+    "url": "git://github.com/NextcartOpenSource/homebridge-key-light.git"
   },
   "bugs": {
-    "url": "https://github.com/chancewashington/homebridge-key-light/issues"
+    "url": "https://github.com/NextcartOpenSource/homebridge-key-light/issues"
   },
   "keywords": [
     "homebridge-plugin"
