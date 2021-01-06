@@ -36,7 +36,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "spread-the-word": "^0.8.4"
   }
 }
