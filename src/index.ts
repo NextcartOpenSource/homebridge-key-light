@@ -14,7 +14,7 @@ import {
 } from "homebridge";
 import { KeyLightBody, KeyLightAccessory } from "./types";
 
-const PLUGIN_NAME = "homebridge-key-light";
+const PLUGIN_NAME = "@nextcart/homebridge-key-light";
 const PLATFORM_NAME = "key-light";
 
 let hap: HAP;
